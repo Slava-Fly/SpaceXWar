@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE1301C22BD62CE000E54194 /* Stars.sks in Resources */ = {isa = PBXBuildFile; fileRef = CE1301C12BD62CE000E54194 /* Stars.sks */; };
+		CE1301C52BD63CD000E54194 /* Fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = CE1301C32BD63CD000E54194 /* Fire.sks */; };
+		CE1301C62BD63CD000E54194 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1301C42BD63CD000E54194 /* Assets.xcassets */; };
+		CE1301C82BD641F300E54194 /* PauseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1301C72BD641F300E54194 /* PauseViewController.swift */; };
+		CE2FBD162BD680FA00024F04 /* PumpUpTheJam.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE2FBD152BD680FA00024F04 /* PumpUpTheJam.mp3 */; };
+		CE2FBD182BD6822C00024F04 /* HitSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE2FBD172BD6822C00024F04 /* HitSound.wav */; };
 		CE7B92AD2BC8FC7400FA1D44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B92AC2BC8FC7400FA1D44 /* AppDelegate.swift */; };
 		CE7B92AF2BC8FC7400FA1D44 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CE7B92AE2BC8FC7400FA1D44 /* GameScene.sks */; };
 		CE7B92B12BC8FC7400FA1D44 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = CE7B92B02BC8FC7400FA1D44 /* Actions.sks */; };
@@ -15,9 +21,16 @@
 		CE7B92B82BC8FC7400FA1D44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7B92B62BC8FC7400FA1D44 /* Main.storyboard */; };
 		CE7B92BA2BC8FC7600FA1D44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7B92B92BC8FC7600FA1D44 /* Assets.xcassets */; };
 		CE7B92BD2BC8FC7600FA1D44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7B92BB2BC8FC7600FA1D44 /* LaunchScreen.storyboard */; };
+		CE820D122BD7FE5500339ED8 /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE820D112BD7FE5500339ED8 /* GameOverViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE1301C12BD62CE000E54194 /* Stars.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Stars.sks; sourceTree = "<group>"; };
+		CE1301C32BD63CD000E54194 /* Fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Fire.sks; sourceTree = "<group>"; };
+		CE1301C42BD63CD000E54194 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Assets.xcassets; sourceTree = "<group>"; };
+		CE1301C72BD641F300E54194 /* PauseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseViewController.swift; sourceTree = "<group>"; };
+		CE2FBD152BD680FA00024F04 /* PumpUpTheJam.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PumpUpTheJam.mp3; sourceTree = "<group>"; };
+		CE2FBD172BD6822C00024F04 /* HitSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HitSound.wav; sourceTree = "<group>"; };
 		CE7B92A92BC8FC7400FA1D44 /* SpaceXWar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceXWar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7B92AC2BC8FC7400FA1D44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE7B92AE2BC8FC7400FA1D44 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -27,6 +40,7 @@
 		CE7B92B72BC8FC7400FA1D44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE7B92B92BC8FC7600FA1D44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE7B92BC2BC8FC7600FA1D44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE820D112BD7FE5500339ED8 /* GameOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +54,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE2FBD192BD682AB00024F04 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE2FBD172BD6822C00024F04 /* HitSound.wav */,
+				CE2FBD152BD680FA00024F04 /* PumpUpTheJam.mp3 */,
+				CE1301C42BD63CD000E54194 /* Assets.xcassets */,
+				CE7B92B92BC8FC7600FA1D44 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CE70EFD32BD8252B00522096 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CE7B92B62BC8FC7400FA1D44 /* Main.storyboard */,
+				CE7B92BB2BC8FC7600FA1D44 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		CE70EFD42BD8254400522096 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE7B92B42BC8FC7400FA1D44 /* GameViewController.swift */,
+				CE1301C72BD641F300E54194 /* PauseViewController.swift */,
+				CE820D112BD7FE5500339ED8 /* GameOverViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CE70EFD52BD8257600522096 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CE7B92AC2BC8FC7400FA1D44 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CE70EFD62BD825BA00522096 /* GameScenes */ = {
+			isa = PBXGroup;
+			children = (
+				CE7B92B22BC8FC7400FA1D44 /* GameScene.swift */,
+				CE7B92AE2BC8FC7400FA1D44 /* GameScene.sks */,
+			);
+			path = GameScenes;
+			sourceTree = "<group>";
+		};
+		CE70EFD72BD8262200522096 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				CE7B92B02BC8FC7400FA1D44 /* Actions.sks */,
+				CE1301C12BD62CE000E54194 /* Stars.sks */,
+				CE1301C32BD63CD000E54194 /* Fire.sks */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
 		CE7B92A02BC8FC7400FA1D44 = {
 			isa = PBXGroup;
 			children = (
@@ -59,14 +130,12 @@
 		CE7B92AB2BC8FC7400FA1D44 /* SpaceXWar */ = {
 			isa = PBXGroup;
 			children = (
-				CE7B92AC2BC8FC7400FA1D44 /* AppDelegate.swift */,
-				CE7B92AE2BC8FC7400FA1D44 /* GameScene.sks */,
-				CE7B92B02BC8FC7400FA1D44 /* Actions.sks */,
-				CE7B92B22BC8FC7400FA1D44 /* GameScene.swift */,
-				CE7B92B42BC8FC7400FA1D44 /* GameViewController.swift */,
-				CE7B92B62BC8FC7400FA1D44 /* Main.storyboard */,
-				CE7B92B92BC8FC7600FA1D44 /* Assets.xcassets */,
-				CE7B92BB2BC8FC7600FA1D44 /* LaunchScreen.storyboard */,
+				CE70EFD52BD8257600522096 /* App */,
+				CE70EFD62BD825BA00522096 /* GameScenes */,
+				CE70EFD42BD8254400522096 /* Controllers */,
+				CE70EFD32BD8252B00522096 /* Storyboards */,
+				CE70EFD72BD8262200522096 /* Graphics */,
+				CE2FBD192BD682AB00024F04 /* Resources */,
 			);
 			path = SpaceXWar;
 			sourceTree = "<group>";
@@ -129,11 +198,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE1301C52BD63CD000E54194 /* Fire.sks in Resources */,
 				CE7B92B82BC8FC7400FA1D44 /* Main.storyboard in Resources */,
+				CE2FBD162BD680FA00024F04 /* PumpUpTheJam.mp3 in Resources */,
+				CE2FBD182BD6822C00024F04 /* HitSound.wav in Resources */,
 				CE7B92AF2BC8FC7400FA1D44 /* GameScene.sks in Resources */,
 				CE7B92BA2BC8FC7600FA1D44 /* Assets.xcassets in Resources */,
 				CE7B92BD2BC8FC7600FA1D44 /* LaunchScreen.storyboard in Resources */,
 				CE7B92B12BC8FC7400FA1D44 /* Actions.sks in Resources */,
+				CE1301C62BD63CD000E54194 /* Assets.xcassets in Resources */,
+				CE1301C22BD62CE000E54194 /* Stars.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,8 +219,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE7B92B32BC8FC7400FA1D44 /* GameScene.swift in Sources */,
+				CE1301C82BD641F300E54194 /* PauseViewController.swift in Sources */,
 				CE7B92B52BC8FC7400FA1D44 /* GameViewController.swift in Sources */,
 				CE7B92AD2BC8FC7400FA1D44 /* AppDelegate.swift in Sources */,
+				CE820D122BD7FE5500339ED8 /* GameOverViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,8 +374,9 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,8 +402,9 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
